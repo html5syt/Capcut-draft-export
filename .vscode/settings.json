@@ -1,0 +1,5 @@
+{
+    "editor.largeFileOptimizations": false,
+    "editor.maxTokenizationLineLength": 999999999,
+    "liveServer.settings.multiRootWorkspaceName": "qviewer"
+}
