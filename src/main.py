@@ -200,7 +200,7 @@ def read_root_meta_info(mainview: ft.GridView, not_first_read=False):
         path,
         "r",
     ) as f:
-        for draft in json.load(f)["all_draft_store"] * 20:
+        for draft in json.load(f)["all_draft_store"]:
             mainview.controls.append(
                 ft.Container(
                     ExportItem(
